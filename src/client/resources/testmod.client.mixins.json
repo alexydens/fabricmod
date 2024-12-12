@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.alexydens.testmod.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"GameMenuScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
