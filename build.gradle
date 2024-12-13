@@ -38,7 +38,9 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
+
+	// ImGui
+	implementation "io.github.spair:imgui-java-app:1.87.7"
 }
 
 processResources {
