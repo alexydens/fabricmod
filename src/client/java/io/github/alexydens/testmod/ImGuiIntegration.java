@@ -47,7 +47,6 @@ public class ImGuiIntegration {
     }
 
     public static void shutdown() {
-        //impl.dispose();
         ImGui.destroyContext();
     }
 }
